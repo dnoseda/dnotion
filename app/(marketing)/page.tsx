@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button";
+import { Footer } from "./_components/footer";
 import { Heading } from "./_components/headings";
+import { Heroes } from "./_components/heroes";
 
 const MarketingPage = () => {
-    return (
-        <div className="min-h-full flex flex-col">
-            <div className="
+  return (
+    <div className="min-h-full flex flex-col">
+      <div
+        className="
             flex
             flex-col
             items-center
@@ -15,12 +17,14 @@ const MarketingPage = () => {
             flex-1
             px-6
             pb-10
-            ">
-                <Heading/>
-
-            </div>
-        </div>
-    )
-}
+            "
+      >
+        <Heading />
+        <Heroes />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default MarketingPage;

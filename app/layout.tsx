@@ -7,19 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "D Notion",
   description: "Note app with spices",
-  icons:{
-    icon:[
+  icons: {
+    icon: [
       {
         media: "(prefers-color-scheme: light)",
         url: "/favicon-16x16.png",
         href: "/favicon-16x16.png",
-      },{
+      },
+      {
         media: "(prefers-color-scheme: dark)",
         url: "/favicon-16x16.png",
         href: "/favicon-16x16.png",
-      }
-    ]
-  }
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
