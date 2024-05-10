@@ -1,10 +1,13 @@
 import { Footer } from "./_components/footer";
 import { Heading } from "./_components/headings";
 import { Heroes } from "./_components/heroes";
+import { NavBar } from "./_components/nabvar";
 
 const MarketingPage = () => {
   return (
+    
     <div className="min-h-full flex flex-col">
+        <NavBar/>
       <div
         className="
             flex
