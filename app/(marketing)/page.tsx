@@ -7,7 +7,6 @@ const MarketingPage = () => {
   return (
     
     <div className="min-h-full flex flex-col">
-        <NavBar/>
       <div
         className="
             flex
